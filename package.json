@@ -5,8 +5,8 @@
   "main": "server.js",
   "proxy": "http://localhost:3000/",
   "engines": {
-    "node": "16.18.0",
-    "npm": "8.19.2"
+    "node": "20.11.0",
+    "npm": "10.2.4"
   },
   "scripts": {
     "client-install": "npm install --prefix client",
