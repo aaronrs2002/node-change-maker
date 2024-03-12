@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <script src="../server.js"></script>
+    <script src="http://localhost:5000/server.js"></script>
 
 
     <div class="container pt-5">
@@ -58,7 +58,7 @@
             let amount = document.querySelector("input[name='total']").value
 
             try {
-                const response = await fetch("../server.js/?amount=" + amount, {
+                const response = await fetch("http://localhost:5000/change/" + amount, {
                     method: "POST", // or 'PUT'
 
                     headers: {
