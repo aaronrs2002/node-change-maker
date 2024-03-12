@@ -16,7 +16,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(bodyParser.json());
 
-app.post("/change/:amount", (req, res) => {
+app.post("/:amount", (req, res) => {
     let amount = req.params.amount;
     amount = Number(amount).toFixed(2);
 
