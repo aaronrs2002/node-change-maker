@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 
 const cors = require('cors');
 const corsOptions = {
-    origin: https://aaronrs2002.github.io/',
+    origin: 'http://localhost:3000',
     credentials: true,
     optionSuccessStatus: 200
 }
@@ -16,7 +16,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(bodyParser.json());
 
-app.post("/:amount", (req, res) => {
+app.post("/change/:amount", (req, res) => {
     let amount = req.params.amount;
     amount = Number(amount).toFixed(2);
 
