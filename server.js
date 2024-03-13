@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 
 const cors = require('cors');
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://mechanized-aesthetics.net/',
     credentials: true,
     optionSuccessStatus: 200
 }
