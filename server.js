@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 
 const cors = require('cors');
 const corsOptions = {
-    origin: 'https://mechanized-aesthetics.net/TEST/NODE-GIVING-CHANGE/client/',
+    origin: 'https://mechanized-aesthetics.net/',
     credentials: true,
     optionSuccessStatus: 200
 }
