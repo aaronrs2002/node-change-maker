@@ -1,9 +1,8 @@
 {
-  "name": "jwt-login-framework-tutorial",
+  "name": "hosting-node-app-tutorial",
   "version": "1.0.0",
-  "description": "jwt login framework",
+  "description": "connecting the server side and client side using CORS",
   "main": "server.js",
-  "proxy": "http://localhost:3000/",
   "engines": {
     "node": "20.11.0",
     "npm": "10.2.4"
@@ -20,9 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "concurrently": "^8.2.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.1"
   }
 }
