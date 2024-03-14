@@ -58,7 +58,7 @@
             let amount = document.querySelector("input[name='total']").value
 
             try {
-                const response = await fetch("https://node-change-maker.onrender.com/change/" + amount, {
+                const response = await fetch("http://localhost:5000/change/" + amount, {
                     method: "POST", // or 'PUT'
 
                     headers: {
